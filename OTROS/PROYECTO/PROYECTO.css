@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(190, 243, 243);
+}
+.contenedor{
+    max-width: 600px;
+    background-color: rgb(129, 237, 105);
+    height: auto;
+    padding: 50px 50px;
+    margin: 50px 50px;
+    text-align: center;
+}
+.btn{
+    margin: 20px;
+}
+#numero1{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 20px;
+    color:rgb(255, 255, 255);
+    background-color: black;
+}
+#numero2{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 20px;
+    background-color: black;
+    color:rgb(255, 255, 255);
+}
+#resultado{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 20px;
+    color:rgb(255, 255, 255);
+    background-color: black;
+}
+.signo{
+    font-size: 30px;
+}
