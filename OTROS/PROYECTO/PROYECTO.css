@@ -1,38 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: rgb(190, 243, 243);
+    max-width: 80%;
+    margin: 0 auto;
 }
-.contenedor{
-    max-width: 600px;
-    background-color: rgb(129, 237, 105);
-    height: auto;
-    padding: 50px 50px;
-    margin: 50px 50px;
-    text-align: center;
+
+#container{
+    width: 100%;
+    margin: 0 auto;
 }
-.btn{
-    margin: 20px;
+header{
+    max-width: 100%;
+    background: rgb(17, 4, 4);
+    width: 100%;
+    clear: both;
+    content: '';
+    padding: 25px;
+    display: flex;
+    margin: 0 auto;
 }
-#numero1{
-    text-align: center;
-    font-size: 25px;
-    padding: 20px 20px;
-    color:rgb(255, 255, 255);
-    background-color: black;
+.menu{
+    margin-left: 5px;
+    margin-right: 50px;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    float: right;
+    display: flex;
 }
-#numero2{
-    text-align: center;
-    font-size: 25px;
-    padding: 20px 20px;
-    background-color: black;
-    color:rgb(255, 255, 255);
+
+p{
+    max-width: 100%;
+    width: 100%;
+    padding: 25px;
+    margin: 0 auto;
+    background-color: rgb(223, 0, 0);
+    color: white;
 }
-#resultado{
-    text-align: center;
-    font-size: 25px;
-    padding: 20px 20px;
-    color:rgb(255, 255, 255);
-    background-color: black;
-}
-.signo{
-    font-size: 30px;
+
+body header img{
+    width: 50px;
+    float: left;
+    display: flex;
+    height: 50px;
 }
