@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 900px;
+    background: #96c4c4;
+   /*background-color: white;*/
+   margin: 0 auto;
+}
+img{
+    margin: 5px;
+    width: 130px;
+    height: 130px;
+    float: left;
+}
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+header{
+    background-image: url(imagenes/logotipo-upds-azul.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    width: 100%;
+    clear: both;
+    content: '';
+    font-family: 'Calibri';
+    height: 210px;
+    display: flex;
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 80px;
+    float: left;
+    padding: 5px 0px 1px 0px;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a::before{
+    display: block;
+    content: '';
+    width: 0%;
+    background: #719393;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.5s;
+}
+nav ul li a:hover:before{
+    width: 100%;
+}
+.parte1{
+    margin: 25px 0px 0px 10px;
+    max-width: 45%;
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 15px;
+    float: left;
+}
+.parte2{
+    margin: 25px 25px 0px 10px;
+    max-width: 45%;
+    background-color: aliceblue;
+    padding: 25px;
+    border-radius: 15px;
+    float:right;
+    content: '';
+    flex-direction:row;
+}
+.upds{
+    max-width: 80%;
+    margin: 0 auto;
+    
+}
