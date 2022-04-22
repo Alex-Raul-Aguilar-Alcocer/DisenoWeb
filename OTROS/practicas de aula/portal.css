@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    max-width: 900px;
+    max-width: 100%;
     background: #96c4c4;
    /*background-color: white;*/
    margin: 0 auto;
@@ -70,6 +70,7 @@ nav ul li a:hover:before{
     padding: 25px;
     border-radius: 15px;
     float: left;
+    min-width: 250px;
 }
 .parte2{
     margin: 25px 25px 0px 10px;
@@ -78,11 +79,10 @@ nav ul li a:hover:before{
     padding: 25px;
     border-radius: 15px;
     float:right;
-    content: '';
-    flex-direction:row;
+    min-width: 250px;
 }
-.upds{
-    max-width: 80%;
-    margin: 0 auto;
     
-}
+    .home{
+        display: flex;
+        flex-wrap: wrap;
+    }
