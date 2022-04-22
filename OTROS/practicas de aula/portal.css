@@ -9,11 +9,11 @@ body{
    /*background-color: white;*/
    margin: 0 auto;
 }
-img{
-    margin: 5px;
-    width: 130px;
-    height: 130px;
-    float: left;
+body div img{
+    margin: 5px auto;
+    width: 150px;
+    height: 150px;
+    display: block;
 }
 header{
     background-image: url(imagenes/logotipo-upds-azul.png);
@@ -65,8 +65,9 @@ nav ul li a:hover:before{
     background-color: #e4fbfb;
     padding: 25px;
     border-radius: 15px;
-    float: left;
-    min-width: 250px;
+    display: inline-block;
+    /*float: left;*/
+    min-width: 400px;
 }
 .parte2{
     margin: 25px 25px 0px 10px;
@@ -74,8 +75,13 @@ nav ul li a:hover:before{
     background-color: #e4fbfb;
     padding: 25px;
     border-radius: 15px;
-    float:right;
-    min-width: 250px;
+    display: inline-block;
+    /*float:right;*/
+    min-width: 400px;
+    /*background-image: url(imagenes/upds.jpg);  
+    background-repeat: no-repeat;
+    background-position:bottom;
+    background-size: 120px 120px;*/
 }
     
     .home{
@@ -94,4 +100,8 @@ nav ul li a:hover:before{
     }
     footer a{
         color: black;
+    }
+    .mision{
+        text-align: center;
+        font-size: 23px;
     }
