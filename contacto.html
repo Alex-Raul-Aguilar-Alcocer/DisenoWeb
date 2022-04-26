@@ -9,29 +9,41 @@
     <title>Formulario</title>
 </head>
 <body>
+    <header class="home">
+        <div class="menu">             
+            <nav>
+                <ul>
+                    <li><a class="#" href="tareas.html">Tareas</a></li>
+                    <li><a class="#" href="contacto.html">Contacto</a></li>
+                    <li><a class="#" href="sobremi.html">Sobre mi</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
     <form  action="agradecimiento.html" method="GET" id="ini">
-        <label class="comentario" for="#">Nombre completo:</label>
+        <label class="comentario" for="#">Nombre completo:</label><br>
         <input class="respuesta" type="text" placeholder="Nombre" name="Nombre" id="Nombre" required pattern="[A-Z a-z]{4,25}"  >
         <br>
 
  
-        <label class="comentario" for="#">Correo electrónico:</label>
+        <label class="comentario" for="#">Correo electrónico:</label><br>
         <input class="respuesta" type="email" placeholder="example@gmail.com" name="email" required>
         <br>
 
-        <label class="comentario" for="#">Teléfono:</label>
+        <label class="comentario" for="#">Teléfono:</label><br>
         <input class="respuesta" type="tel" placeholder="70070070" name="Telf" required pattern="[0-9]{8}">
         <br>
 
-        <label class="comentario" for="#">Ingrese la fecha actual:</label>
+        <label class="comentario" for="#">Ingrese la fecha actual:</label><br>
         <input class="respuesta" type="date" name="fecha">
         <br>
 
-        <label class="comentario" for="#">Escriba el tipo de usuario:</label>
+        <label class="comentario" for="#">Escriba el tipo de usuario:</label><br>
         <input class="respuesta" type="text" name="lista">
         <br>
 
-        <label class="comentario" for="#">Lugar del que requiere información</label>
+        <label class="comentario" for="#">Ciudad en la que se encuentra</label><br>
 
         <select class="respuesta" name="opciones">
             <optgroup label="Seleccionar departamento...">
@@ -48,10 +60,10 @@
          </select>
         <br>
 
-         <label class="comentario" for="#">Ingrese su comentario (opcional)</label>
+         <label class="comentario" for="#">Ingrese su comentario (opcional)</label><br>
          <textarea class="respuesta" name="comentarios"></textarea>
          <br>
-         <label class="regresar" for="#"> <a href="index.html" style="color:black;"> Regresar AL MENU PRINCIPAL</a></label>
+         <label class="regresar" for="#"> <a href="index.html" style="color:black;"> Regresar AL MENU PRINCIPAL</a></label><br>
         <input class="enviar" type="submit"> 
     </form>
     
