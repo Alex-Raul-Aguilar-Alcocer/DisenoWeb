@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    max-width: 100%;
+    width: 100%;
     background: #96c4c4;
    /*background-color: white;*/
    /*margin: 0 auto;*/
