@@ -46,3 +46,14 @@ body header img{
     display: flex;
     height: 50px;
 }
+.car{
+    height: 200px;
+}
+.d-block{
+    max-width: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+.visually-hidden{
+    color: black;
+}

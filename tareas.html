@@ -4,61 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="portal.css">
     <title>Document</title>
-    <link rel="stylesheet" href="css/tareas.css">
 </head>
 <body>
-    
-    <header class="home">
-        <div class="menu">             
-            <nav>
-                <ul>
-                    <li><a class="#" href="tareas.html">Tareas</a></li>
-                    <li><a class="#" href="contacto.html">Contacto</a></li>
-                    <li><a class="#" href="sobremi.html">Sobre mi</a></li>
-                    <li><a class="#" href="index.html">Inicio</a></li>
-                </ul>
+    <div class="row">
+        <div class="col-12">            
+            <header class="home">
+                <div class="menu">             
+                    <nav>
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <div class="container-fluid">
+                              <a class="navbar-brand" href="#">MENU:</a>
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="sobremi.html">Sobre mi</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="tareas.html">Tareas</a>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </nav>
 
-            </nav>
-        </div>
-    </header>
-    <main>
-        <div class="parte1">
-        <p> <strong>PRACTICA 1:</strong> En la practica 1, nos centramos en realizar un portafolio personal, en generar nuestro blog personal donde podremos encontrar informacion sobre nosotros, un formulario para obtener contactos y un apartado donde encontraremos todas las actividades que se realizará en el módulo.
-            <br>
-            <a href="documentos/Plantilla_InformeActividad-PRACTICA 1.pdf">REF.: PDF PRACTICA 1</a>
-        </p>
-        
-        <img class="upds" src="imagenes/tarea1.png" alt="#">
-        <img class="upds" src="imagenes/tarea1-2.png" alt="#">
+                    </nav>
+                </div>
+            </header>
+
         </div>
 
-       <!--<div class="parte2">
-        <p>
-            <strong>PRACTICA 2</strong>
-           
-        </p>
-        <img class="upds" src="imagenes/SISTEMAS.jpg" alt="#">
-        </div>
+    </div>
 
-        <div class="parte1">
-            <p> <strong>PROYECTO 1:</strong> 
-                <br>
-                <a href="#">REF.: PDF PROYECTO 1</a>
-            </p>
-            
-            <img class="upds" src="imagenes/tarea1.png" alt="#">
-            <img class="upds" src="imagenes/tarea1-2.png" alt="#">
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <section class="borde">
+                    <p> <strong>PRACTICA 1:</strong> En la practica 1, nos centramos en realizar un portafolio personal, en generar nuestro blog personal donde podremos encontrar informacion sobre nosotros, un formulario para obtener contactos y un apartado donde encontraremos todas las actividades que se realizará en el módulo.
+                        <img src="imagenes/tarea1.png" alt="">
+                    </p>   
+                    <a href="documentos/Plantilla_InformeActividad-PRACTICA 1.pdf">Ref.: PRACTICA 1</a>
+                </section>                 
             </div>
-    
-            <div class="parte2">
-            <p>
-                <strong>PROYECTO 2</strong>
-               
-            </p>
-            <img class="upds" src="imagenes/SISTEMAS.jpg" alt="#">
-            </div>-->
+            <!--
+                practica 2
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                    <section class="borde">
+                    <p> 
+                        <strong>PERFIL DEL LICENCIADO EN INGENIERÍA DE SISTEMAS</strong>
+                        Un Ingeniero de Sistemas graduado de la UPDS, es aquel profesional que desarrolla actuaciones integrales para resolver problemas del contexto a través de los saberes conocer, hacer, ser y convivir, siendo capaz de:
+                        Implementar soluciones tecnológicas innovadoras, crear proyectos de investigación científica y tecnológica para resolver problemas del entorno
+                    </p>
+                    <img class="upds" src="imagenes/SISTEMAS.jpg" alt="#">
+                </section>
+            </div>
 
-        </main>
+            proyecto 1
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                    <section class="borde"> 
+                    <h2 class="mision">MISIÓN</h2> <br>
+                    <p>
+                        Generar cambios en las personas para desarrollar emprendedores socialmente responsables capaces de responder a desafíos emergentes. 
+                    </p>
+                <img class="upds" src="imagenes/mision.jpg" alt="#">
+                </section>
+            </div>
+
+                proyecto 2 
+            <div class="col-sm-12 col-md-6 col-lg-6">     
+                <section class="borde">              
+                    <h2 class="mision">VISIÓN</h2> <br>
+                    <p>
+                        Ser la red de educación universitaria referente a nivel nacional por su formación académica de excelencia basada en la investigación científica y su compromiso con la Internacionalización. 
+                    </p>   
+                    <img class="vision" src="imagenes/vision.jpg" alt="#">
+                </section>
+             </div>-->
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm12 col-md-12 col-lg-12">
+            <footer>
+                &copy;Alex Raul Aguilar Alcocer - Cochabamba-Bolivia-2022 
+                <a href="http://www.upds.edu.bo/"> UPDS - Cbba.</a>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
